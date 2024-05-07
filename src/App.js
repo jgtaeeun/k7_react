@@ -2,6 +2,8 @@ import './App.css';
 import { RiHome8Line } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import logo from './logo.svg';
+/*import MyDiv from './03/MyDiv';*/
+import MyList from './04/MyList';
 
 function App() {
   return (
@@ -11,9 +13,12 @@ function App() {
         <p><RiHome8Line className='text-5xl text-yellow-300' /></p>
       </header>
       <main className='grow'>
-        <div className='flex justify-center items-center'>
+         {/*<div className='flex justify-center items-center'> 
           <img src={logo} className='App-logo' alt='logo' />
-        </div>
+        </div>*/}
+        {/*<MyDiv />*/}
+        <MyList />
+
       </main>
       <footer className='flex justify-center items-center text-xl text-white bg-slate-800 h-20'>
         <p>＠2024 k-7 digital.All rights reserved</p>
