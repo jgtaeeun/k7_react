@@ -3,7 +3,8 @@ import { RiHome8Line } from "react-icons/ri";
 import { TfiEmail } from "react-icons/tfi";
 import logo from './logo.svg';
 /*import MyDiv from './03/MyDiv';*/
-import MyList from './04/MyList';
+/*import MyList from './04/MyList';*/
+import Lotto from './05/Lotto';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <img src={logo} className='App-logo' alt='logo' />
         </div>*/}
         {/*<MyDiv />*/}
-        <MyList />
+        {/*<MyList />*/}
+        <Lotto />
 
       </main>
       <footer className='flex justify-center items-center text-xl text-white bg-slate-800 h-20'>
