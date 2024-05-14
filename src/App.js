@@ -7,7 +7,8 @@ import { RiHome8Line } from "react-icons/ri";
 /*import Lotto from './05/Lotto';*/
  /*import MyClock from './02/MyClock' ;*/
 /*import BoxOffice from './06/BoxOffice';*/
-import FoodMain from './07/FoodMain';
+import TrafficMain from './08/TrafficMain';
+// import FoodMain from './07/FoodMain';
 function App() {
   return (
     <div className="flex flex-col w-full max-w-screen-lg h-screen overscroll-y-auto mx-auto">
@@ -27,7 +28,8 @@ function App() {
         {/*<MyList />*/}
          {/*<Lotto />*/}
          {/*<BoxOffice />*/}
-         <FoodMain />
+         {/* <FoodMain /> */}
+         <TrafficMain />
       </main>
       <footer className='flex justify-center items-center text-xl text-white bg-slate-800 h-20'>
         <p>＠2024 k-7 digital.All rights reserved</p>
