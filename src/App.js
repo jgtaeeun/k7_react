@@ -10,7 +10,8 @@ import { RiHome8Line } from "react-icons/ri";
 // import TrafficMain from './08/TrafficMain';
 // import FoodMain from './07/FoodMain';
 // import TrafficMenu from './08_1/TrafficMenu';
-import Traffic from './08_1/Traffic';
+// import Traffic from './08_1/Traffic';
+import MyRef from './09/MyRef';
 function App() {
   return (
     <div className="flex flex-col w-full max-w-screen-lg h-screen overscroll-y-auto mx-auto">
@@ -33,7 +34,8 @@ function App() {
          {/* <FoodMain /> */}
          {/* <TrafficMain /> */}
          {/* <TrafficMenu /> */}
-         <Traffic />
+         {/* <Traffic /> */}
+        <MyRef />
       </main>
       <footer className='flex justify-center items-center text-xl text-white bg-slate-800 h-20'>
         <p>＠2024 k-7 digital.All rights reserved</p>
