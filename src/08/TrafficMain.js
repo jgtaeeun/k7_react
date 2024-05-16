@@ -82,7 +82,7 @@ export default function TrafficMain() {
     useEffect(()=>{
         console.log("대분류버튼에서 선택된 버튼 1개",bb1)
         console.log("중분류버튼에서 선택된 버튼 1개",mm1)
-
+        if (!bb1||!mm1) return;
         // console.log(tdata.filter(item=>item['사고유형_대분류']===bb1 && item['사고유형_중분류']===mm1 ) )   Array[0]
         let tm=tdata.filter(item=>item['사고유형_대분류']===bb1 && item['사고유형_중분류']===mm1 )
         tm=tm[0];   //[[Prototype]] : Object
