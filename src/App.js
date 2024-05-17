@@ -6,12 +6,15 @@ import { RiHome8Line } from "react-icons/ri";
 /*import MyList from './04/MyList';*/
 /*import Lotto from './05/Lotto';*/
  /*import MyClock from './02/MyClock' ;*/
-// /*import BoxOffice from './06/BoxOffice';*/
+// import BoxOffice from './06/BoxOffice';
 // import TrafficMain from './08/TrafficMain';
 // import FoodMain from './07/FoodMain';
 // import TrafficMenu from './08_1/TrafficMenu';
 // import Traffic from './08_1/Traffic';
-import MyRef from './09/MyRef';
+// import MyRef from './09/MyRef';
+import Gellery from './10/Gellery';
+// import Card from './001/Card';
+
 function App() {
   return (
     <div className="flex flex-col w-full max-w-screen-lg h-screen overscroll-y-auto mx-auto">
@@ -30,12 +33,14 @@ function App() {
         {/*<MyDiv />*/}
         {/*<MyList />*/}
          {/*<Lotto />*/}
-         {/*<BoxOffice />*/}
+         {/* <BoxOffice /> */}
          {/* <FoodMain /> */}
          {/* <TrafficMain /> */}
          {/* <TrafficMenu /> */}
          {/* <Traffic /> */}
-        <MyRef />
+        {/* <MyRef /> */}
+        <Gellery />
+        {/* <Card /> */}
       </main>
       <footer className='flex justify-center items-center text-xl text-white bg-slate-800 h-20'>
         <p>＠2024 k-7 digital.All rights reserved</p>
