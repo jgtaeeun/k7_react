@@ -22,7 +22,7 @@ export default function BoxOffice() {
 
       /*http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=f5eef3421c602c6cb7ea224104795888&targetDt=20120101
       */
-      let url=`http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
+      let url=`https://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?`;
       url = url+`key=${process.env.REACT_APP_MV_KEY}`;
       url = url+`&targetDt=${seldate.current.value.replaceAll('-' ,'')}`;   //2024-05-17에서 -를 제거한다. 
 
