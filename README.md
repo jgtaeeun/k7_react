@@ -73,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 #tailwindcss/table-layout 참조
 https://tw-elements.com/docs/standard/data/tables/
+
+
+#vercel 
+https://k7-react-chi.vercel.app/
