@@ -10,7 +10,8 @@ import Traffic from './08_1/Traffic';
 import FoodMain from './07/FoodMain';
 import Fcst from './13/Fcst';
 import FcstList from './13/FcstList';
-
+import RecoilMain from './14/RecoilMain';
+import Test from './15/Test';
 function App() {
   return (
     <div className="h-screen flex flex-col w-full max-w-screen-lg overscroll-y-auto mx-auto p-2">
@@ -26,6 +27,8 @@ function App() {
             <li className='p-2'><Link to='/FoodMain'>음식업체</Link></li>
             <li className='p-2'><Link to='/Traffic'>교통사고정보</Link></li>
             <li className='p-2'><Link to='/Fcst'>단기예보</Link></li>
+            <li className='p-2'><Link to ='/RecoilMain'>Recoil</Link></li>
+            <li className='p-2'><Link to ='/Test'>jsonserver test</Link></li>
           </ul>
        
         
@@ -38,7 +41,7 @@ function App() {
       </header>
       <main className='grow W-full max-h-full justify-center items-center overflow-y-auto bg-white'>
         
-          
+          <div className='W-full h-full flex flex-col justify-center items-center'>
           
             <Routes>
               <Route path='/' element={<MyClock />} />
@@ -48,8 +51,10 @@ function App() {
               <Route path='/Traffic' element={<Traffic />} />
               <Route path='/Fcst' element={<Fcst />} />
               <Route path='/FcstList' element={<FcstList/>} />
+              <Route path='/RecoilMain' element={<RecoilMain />} />
+              <Route path='/Test' element={<Test />} />
             </Routes>
-          
+          </div> 
         
          
        
